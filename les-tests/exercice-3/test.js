@@ -1,5 +1,13 @@
 const expect = require('expect.js')
 
+// La fonction somme() retourne la somme des nombres passés en paramètre.
+// Tout paramètre manquant aura 0 comme valeur par défaut.
+// Si un des paramètre n'est pas de type `number`, la fonction lèvera une
+// exception avec le message d'erreur "paramètre invalide".
+function somme(nombre1, nombre2) {
+    // TODO
+}
+
 describe("La fonction somme() est sensée retourner", () => {
 
     // Avec comme paramètres 1 et 2,
